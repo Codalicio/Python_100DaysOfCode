@@ -9,6 +9,6 @@ total_bill_after_tip = bill + tip_calculated
 
 splitting_with = int(input("How many people to split the bill with?\n"))
 
-each_person_bill = total_bill_after_tip / splitting_with
+bill_per_person = total_bill_after_tip / splitting_with
 
-print(f"Each person should pay : ${'{:.2f}'.format(each_person_bill)}")
+print(f"Each person should pay : ${'{:.2f}'.format(bill_per_person)}")
